@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind play cdn start -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind play cdn end -->
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- try customizing your config -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Assignment 3</title>
+  </head>
+ <body>
+    <header class="mt-6">
+        <nav class="flex justify-between mx-auto px-4 sm:px-20 border-b-2 border-green-300 sm:border-b-0">
+            <div class="ml-4 md:ml-0">
+                <img src="c2-assets/logo-header.png" alt="Logo" class="w-24 md:w-32">
+            </div>
+
+            <!-- navigation links -->
+            <div class="hidden md:flex space-x-8 justify-center items-center text-2xl">
+                <a href="#" class="text-gray-700 hover:text-green-600 font-medium">Product</a>
+                <a href="#" class="text-gray-700 hover:text-green-600 font-medium">Services</a>
+                <a href="#" class="text-gray-700 hover:text-green-600 font-medium">Contact us</a>
+            </div>
+
+            <!-- icon and button-->
+            <div class="hidden md:flex space-x-8 text-base items-center">
+                <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+                <button class="border rounded-md border-green-500 px-4 py-0.5 text-center hover:bg-yellow-200">Login</button>
+                <button class="border rounded-md bg-green-600 px-4 py-0.5 text-center hover:bg-yellow-200">Register</button>
+            </div>
+
+            <!-- hamburger added for small devices-->
+            <div class="md:hidden flex items-center mr-4">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </div>
+        </nav>
+        <section>
+
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+ </body>
+</html>
